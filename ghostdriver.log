@@ -1,0 +1,24 @@
+[INFO  - 2020-11-29T04:45:59.324Z] GhostDriver - Main - running on port 33683
+[INFO  - 2020-11-29T04:46:00.225Z] Session [c7206cd0-31fd-11eb-8a2e-67da5af3d8ca] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-11-29T04:46:00.225Z] Session [c7206cd0-31fd-11eb-8a2e-67da5af3d8ca] - page.customHeaders:  - {}
+[INFO  - 2020-11-29T04:46:00.225Z] Session [c7206cd0-31fd-11eb-8a2e-67da5af3d8ca] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-11-29T04:46:00.225Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c7206cd0-31fd-11eb-8a2e-67da5af3d8ca
+[ERROR - 2020-11-29T04:46:01.200Z] Session [c7206cd0-31fd-11eb-8a2e-67da5af3d8ca] - page.onError - msg: TypeError: undefined is not a function (evaluating 'Object.is(item,self)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-11-29T04:46:01.201Z] Session [c7206cd0-31fd-11eb-8a2e-67da5af3d8ca] - page.onError - stack:
+  (anonymous function) (https://adoring-pademelon-4szn-8080.nt.run/rb_build.js:71)
+  forEach (:0)
+  removeFromCart (https://adoring-pademelon-4szn-8080.nt.run/rb_build.js:70)
+  onclick (https://adoring-pademelon-4szn-8080.nt.run/rb_build.js:194)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
